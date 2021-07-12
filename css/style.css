@@ -16,7 +16,7 @@ body {
 }
 
 .boody {
-  background-image: url(./image/GoIT_baner.jpeg);
+  background-image: url(../image/GoIT_baner.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
