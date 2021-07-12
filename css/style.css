@@ -6,7 +6,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #eeeeee;
+  background: linear-gradient(45deg, #2d035e, #db8008);
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 *,
@@ -15,12 +28,12 @@ body {
   box-sizing: border-box;
 }
 
-.boody {
+/* .boody {
   background-image: url(../image/GoIT_baner.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 .li__item {
   list-style: none;
