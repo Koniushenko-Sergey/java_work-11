@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eeeeee;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.go__back {
+  color: black;
+  text-decoration: none;
+}
+
+.go__back:hover {
+  color: rgb(214, 2, 30);
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.button {
+  outline: none;
+  /* border: none; */
+  background-color: rgb(248, 242, 242);
+  border-radius: 4px;
+  width: 128px;
+  height: 38px;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: rgb(158, 158, 235);
+  box-shadow: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  color: white;
+}
