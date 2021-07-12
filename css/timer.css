@@ -56,7 +56,7 @@ body {
   transition: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .winter {
-  background-image: url(/image/peyzazh-priroda-gory-dom-zima.jpeg);
+  background-image: url(./image/peyzazh-priroda-gory-dom-zima.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
