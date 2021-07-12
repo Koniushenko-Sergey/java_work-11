@@ -30,10 +30,10 @@ body {
 }
 
 .boody {
+  /* background-image: url(../image/GoIT_baner.jpeg); */
   background: linear-gradient(45deg, #2d035e, #db8008);
   animation: gradient 10s ease infinite;
   background-size: 200% 200%;
-  background-image: url(../image/GoIT_baner.jpeg);
 }
 
 .li__item {
