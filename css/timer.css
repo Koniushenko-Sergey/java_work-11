@@ -14,7 +14,7 @@ body {
 *::after {
   box-sizing: border-box;
 }
-/* .timer {
+.timer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,11 +56,14 @@ body {
   transition: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .winter {
-  background-image: url(../image/peyzazh-priroda-gory-dom-zima.jpeg);
+  /* background-image: url(../image/peyzazh-priroda-gory-dom-zima.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-} */
+  background-size: cover; */
+  background: linear-gradient(45deg, #07000f, #f7f5f3);
+  animation: gradient 1s ease infinite;
+  background-size: 400% 400%;
+}
 
 .button {
   outline: none;
